@@ -76,3 +76,24 @@ if(currentHour === 17) {
 } else if(currentHour > 17) {
     $('#8').addClass("past");
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+saveButton.saveButton("click", function() {
+
+    console.log($(this).parent().previousSibling);
+};
+
+
+)
