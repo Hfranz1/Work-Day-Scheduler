@@ -93,7 +93,6 @@ if(currentHour === 17) {
 saveButton.saveButton("click", function() {
 
     console.log($(this).parent().previousSibling);
-};
+});
 
 
-)
